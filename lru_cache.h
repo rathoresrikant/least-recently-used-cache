@@ -38,6 +38,8 @@ class LRUCache
     LRUCache(int capacity)
     {
         this->capacity = capacity;
+        this->head = NULL;
+        this->tail = NULL;
         cache.clear();
     }
 
